@@ -9,7 +9,7 @@
 .button {
   display: inline-block;
   background-color: var(--primary-theme-color);
-  border: 0.0625rem solid var(--primary-theme-color);
+  // border: 0.0625rem solid var(--primary-theme-color);
   border-radius: var(--primary-border-radius);
   color: var(--primary-text-color);
   font-weight: 600;
@@ -33,10 +33,11 @@
     }
   }
 
-  &:hover {
-    box-shadow: 0 0 0.25rem 0.25rem var(--primary-theme-color);
-    filter: brightness(112.5%);
-  }
+  // &:hover {
+  //   // box-shadow: 0 0 0.25rem 0.25rem var(--primary-theme-color);
+  //   // filter: brightness(112.5%);
+  //   background-color: var(--secondary-button-color);
+  // }
 
   &--primary {
     background-color: var(--primary-button-color);
@@ -44,7 +45,8 @@
     color: var(--reverse-primary-text-color);
 
     &:hover {
-      box-shadow: 0 0 0.5rem 0 var(--primary-button-color);
+      // box-shadow: 0 0 0.5rem 0 var(--primary-button-color);
+      background-color: var(--secondary-button-color);
     }
   }
 
@@ -56,6 +58,13 @@
     &:hover {
       box-shadow: 0 0 0.5rem 0 var(--secondary-button-color);
     }
+  }
+
+  &--inicio{
+    z-index: 200;
+    margin: 4rem;
+    cursor: pointer;
+
   }
 
   &--outline {

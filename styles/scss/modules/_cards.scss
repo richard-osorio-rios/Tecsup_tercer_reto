@@ -2,10 +2,13 @@
   box-shadow: 0 0 0.125rem 0 var(--reverse-primary-shadow-color);
   border-radius: var(--primary-border-radius);
   overflow: hidden;
-  transition: box-shadow 0.25s;
+  // transition: box-shadow 0.25s;
+  transition: all 400ms ease;
 
   &:hover {
-    box-shadow: 0 0 0.125rem 0 var(--primary-highlight-color);
+    // box-shadow: 0 0 0.125rem 0 var(--primary-highlight-color);
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.4) ;
+    transform: translateY(-3%);
   }
 
   &--hero {

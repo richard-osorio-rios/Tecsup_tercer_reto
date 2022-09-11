@@ -5,11 +5,14 @@
   color: var(--primary-text-color);
   font-family: var(--primary-font-family);
   margin: 0;
+  padding: 0;
+
 }
 
 .body--light {
   scroll-behavior: smooth;
-  --primary-theme-color: #fff;
+  /* --primary-theme-color: #fff; */
+  --primary-theme-color: #CCCECE;
   --secondary-theme-color: #eee;
   --primary-text-color: #000;
   --secondary-text-color: #282c34;
@@ -18,4 +21,8 @@
   --secondary-shadow-color: #eee8;
   --tertiary-shadow-color: #ffffff40;
   --reverse-primary-shadow-color: #0008;
+}
+
+.inicio{
+  z-index: 2;
 }
